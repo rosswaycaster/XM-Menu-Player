@@ -22,3 +22,7 @@ Download the latest release for Intel Mac → https://github.com/rosswaycaster/X
 5. Check the `out` folder for the packaged application to run.
 
 This app was built in ~30 mins so please feel free to extend it and open pull requests. I've only tested this on an Intel Mac.
+
+---
+
+🧑‍⚖️ This is an unofficial application and not published or supported by Sirius XM Holdings Inc. Intended for personal and educational purposes. I am liable for nothing.
