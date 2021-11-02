@@ -8,7 +8,7 @@
 <img width="450" alt="2021-11-02 at 16 29 30" src="https://user-images.githubusercontent.com/1231836/139956753-43875870-2de4-4fdd-b65c-267765b15c98.png">
 </p>
 
-I got tired of having a browser tab open just to play SiriusXM while working. So I created this little menu bar [Electron](https://www.electronjs.org/) application that wraps the web player. It also displays the current artist and song title in the menu bar. Enjoy! 🎶
+I got tired of having a browser tab open just to play SiriusXM. So I created this little menu bar [Electron](https://www.electronjs.org/) application that wraps the web player. It also displays the current artist and song title in the menu bar. Enjoy! 🎶
 
 ---
 
