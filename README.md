@@ -12,7 +12,7 @@ I got tired of having a browser tab open just to play SiriusXM while working. So
 
 ---
 
-Download the latest release for Intel Mac - https://github.com/rosswaycaster/XM-Menu-Player/releases
+Download the latest release for Intel Mac → https://github.com/rosswaycaster/XM-Menu-Player/releases
 
 **To build for a different platform:**
 1. Download this repo.
