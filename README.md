@@ -12,17 +12,24 @@ I got tired of having a browser tab open just to play SiriusXM. So I created thi
 
 ---
 
-## Requirements
+## Download
+
+ - **Windows**: [Socket Development - Releases](https://github.com/Socket-Development/XM-Menu-Player/releases)
+ - **Mac**: [rosswaycaster - Releases](https://github.com/rosswaycaster/XM-Menu-Player/releases)
+ 
+## To manually build
+
+### Requirements
 
  - **yarn**
 
-## Supported Platforms
+### Supported Platforms
 
  - **Mac**
  - **Windows**
  - **Linux**
 
-## To build for your platform
+### Instructions
 
 1. Download this repo.
 2. Open the folder in your command line or Terminal.
