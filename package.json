@@ -4,7 +4,7 @@
   "description": "Menu bar app for easily accessing the SiriusXM Player",
   "keywords": [],
   "main": "./main.js",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "rosswaycaster",
   "scripts": {
     "start": "electron-forge start",
