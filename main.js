@@ -7,7 +7,6 @@ const mb = menubar({
   browserWindow: {
     width: 450,
     height: 660,
-    darkTheme: true,
     resizable: true,
     movable: true,
     minimizable: true,
@@ -15,8 +14,11 @@ const mb = menubar({
     closable: true,
     focusable: true,
     fullscreen: false,
-    frame: true,
-    titleBarOverlay: '#0000ff',
+    fullscreenable: true,
+    hasShadow: true,
+    devTools: true,
+    autoHideMenuBar: true,
+    frame: true
   },
   preloadWindow: true,
   icon: path.join(__dirname, "./MenuIcon.png"),
@@ -24,6 +26,7 @@ const mb = menubar({
     partition: "persist:xmmenuplayer",
   },
 });
+
 
 mb.app.commandLine.appendSwitch(
   "disable-backgrounding-occluded-windows",

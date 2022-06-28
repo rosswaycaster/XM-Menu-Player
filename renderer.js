@@ -4,6 +4,3 @@
 // `nodeIntegration` is turned off. Use `preload.js` to
 // selectively enable features needed in the rendering
 // process.
-const log = require('electron-log');
-
-window.log = log.functions;
