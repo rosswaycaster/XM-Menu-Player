@@ -12,17 +12,25 @@ I got tired of having a browser tab open just to play SiriusXM. So I created thi
 
 ---
 
- - **Mac**: Download the latest release for Intel Mac → [Mac Releases](https://github.com/rosswaycaster/XM-Menu-Player/releases) <br />
- - **Windows**: Download the latest release for Windows → [Windows Releases](https://github.com/Socket-Development/XM-Menu-Player/releases)
+## Requirements
 
-**To build for a different platform:**
+ - **yarn**
+
+## Supported Platforms
+
+ - **Mac**
+ - **Windows**
+ - **Linux**
+
+## To build for your platform
+
 1. Download this repo.
 2. Open the folder in your command line or Terminal.
 3. Run `yarn install`.
 4. Then run `yarn package`.
 5. Check the `out` folder for the packaged application to run.
 
-This app was built in ~30 mins so please feel free to extend it and open pull requests. I've only tested this on an Intel Mac.
+This app was built in ~30 mins so please feel free to extend it and open pull requests.
 
 ---
 
