@@ -14,8 +14,8 @@ I got tired of having a browser tab open just to play SiriusXM. So I created thi
 
 ## Download
 
- - **Windows**: [Socket Development - Releases](https://github.com/Socket-Development/XM-Menu-Player/releases)
- - **Mac**: [rosswaycaster - Releases](https://github.com/rosswaycaster/XM-Menu-Player/releases)
+ - **Windows**: [Socket Development → Releases](https://github.com/Socket-Development/XM-Menu-Player/releases)
+ - **Mac**: [rosswaycaster → Releases](https://github.com/rosswaycaster/XM-Menu-Player/releases)
  
 ## Building from Source
 
