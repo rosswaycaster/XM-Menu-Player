@@ -4,13 +4,30 @@ const path = require("path");
 const { menubar } = require("menubar");
 
 const mb = menubar({
-  browserWindow: { width: 450, height: 660 },
+  browserWindow: {
+    width: 450,
+    height: 660,
+    resizable: true,
+    movable: true,
+    minimizable: true,
+    maximizable: true,
+    closable: true,
+    focusable: true,
+    fullscreen: false,
+    fullscreenable: true,
+    hasShadow: true,
+    devTools: true,
+    autoHideMenuBar: true,
+    frame: true
+  },
   preloadWindow: true,
-  icon: path.join(__dirname, "/MenuIcon.png"),
+  icon: path.join(__dirname, "./MenuIcon.png"),
   webPreferences: {
     partition: "persist:xmmenuplayer",
+    webgl: true,
   },
 });
+
 
 mb.app.commandLine.appendSwitch(
   "disable-backgrounding-occluded-windows",
@@ -25,8 +42,12 @@ mb.on("ready", () => {
 
   // First URL
   win.loadURL("https://player.siriusxm.com/now-playing");
+  win.setBackgroundColor('#333333')
+  win.once('ready-to-show', () => {
+    win.show()
+  });
 
-  // mb.on('after-create-window', () => {
+  // mb.on('after-create-window', () => {}
 
   // Once dom-ready
   win.webContents.once("dom-ready", () => {
@@ -58,7 +79,7 @@ mb.on("ready", () => {
           // Set Menubar Title
           mb.tray.setTitle(`${playerState} ${artistName} - ${trackName}`);
         })
-        .catch(() => {});
+        .catch(() => { });
     }, 1000);
   });
 });
