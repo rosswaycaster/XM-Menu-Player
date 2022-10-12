@@ -1,0 +1,11 @@
+title: XM Menu Player
+description: >
+ Menu bar app for easily accessing the SiriusXM Player
+ 
+show_excerpts: false
+
+remote_theme: just-the-docs/just-the-docs
+  
+header_pages:
+  - index.md
+  - instructions.md
