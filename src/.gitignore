@@ -1,0 +1,7 @@
+out
+dist
+noe_modules
+package-lock.json
+yarn.lock
+.bat
+.vbs
