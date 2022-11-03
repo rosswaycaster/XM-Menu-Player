@@ -1,6 +1,6 @@
 out
 dist
-noe_modules
+node_modules
 package-lock.json
 yarn.lock
 .bat
